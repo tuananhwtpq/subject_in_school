@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:text="Tên đăng nhập:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/ed_dangNhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="75"
+            android:ems="10"
+            android:hint="Ten dang nhap"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:text="Mật Khẩu:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/ed_matKhau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="75"
+            android:ems="10"
+            android:hint="Mat khau"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <CheckBox
+            android:id="@+id/cbox"
+            android:text="Lưu thông tin"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_width="match_parent">
+
+        <Button android:id="@+id/btn_nhap"
+            android:text="Nhập"
+            android:layout_marginRight="5dp"
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+        <Button android:id="@+id/btn_Thoat"
+            android:text="Thoát"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+    </TableRow>
+
+
+</LinearLayout>

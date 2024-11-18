@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_add"
+        android:title="Add"/>
+    <item android:id="@+id/menu_edit"
+        android:title="Edit"/>
+    <item android:id="@+id/menu_delete"
+        android:title="Delete"/>
+    <item android:id="@+id/menu_add_db"
+        android:title="Luu vao DB"/>
+    <item android:id="@+id/menu_doc_db"
+        android:title="Doc tu DB"/>
+    <item android:id="@+id/luu_vao_file"
+        android:title="Luu tru voi file"/>
+    <item android:id="@+id/doc_tu_file"
+        android:title="Doc tu file"/>
+    <item android:id="@+id/menu_exit"
+        android:title="Exit"/>
+
+</menu>

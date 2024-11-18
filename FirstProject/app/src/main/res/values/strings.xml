@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bai KTra</string>
+    <string-array name="array_type">
+        <item>Học phí</item>
+        <item>Tăng cường</item>
+        <item>Giáo trình</item>
+        <item>Khác</item>
+    </string-array>
+</resources>
